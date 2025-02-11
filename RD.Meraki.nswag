@@ -29,7 +29,7 @@
       "useHttpRequestMessageCreationMethod": false,
       "useBaseUrl": true,
       "generateBaseUrlProperty": true,
-      "generateSyncMethods": false,
+      "generateSyncMethods": true,
       "generatePrepareRequestAndProcessResponseAsAsyncMethods": false,
       "exposeJsonSerializerSettings": false,
       "clientClassAccessModifier": "public",

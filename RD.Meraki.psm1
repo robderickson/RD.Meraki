@@ -41,7 +41,7 @@ function Assert-Client ($Client) {
 
 function Get-RDMerakiOrganization {
 	[CmdletBinding()]
-	[OutputType([RD.Meraki.Organization])]
+	[OutputType([RD.Meraki.Anonymous136])]
 	param(
 		[RD.Meraki.ApiClient]$Client = [RD.Meraki.CurrentClient]::ApiClient
 	)
@@ -52,7 +52,7 @@ function Get-RDMerakiOrganization {
 
 function Get-RDMerakiNetwork {
 	[CmdletBinding()]
-	[OutputType([RD.Meraki.Network])]
+	[OutputType([RD.Meraki.Network])] #Anonymous190?
 	param(
 		[string]$OrganizationId,
 		[string]$NetworkId,

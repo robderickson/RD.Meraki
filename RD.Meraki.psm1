@@ -47,7 +47,7 @@ function Get-RDMerakiOrganization {
 	)
 
 	Assert-Client $Client
-	return $Client.GetOrganizations
+	return $Client.GetOrganizations()
 }
 
 function Get-RDMerakiNetwork {

@@ -3,8 +3,6 @@ param(
 )
 
 nswag run $PSScriptRoot/RD.Meraki.nswag
-$content = (Get-Content $PSScriptRoot/RD.Meraki.ApiClient/RD.Meraki.ApiClient.cs).Replace('https://api.meraki.com/{basepath}', 'https://api.meraki.com/api/v1')
-Set-Content $PSScriptRoot/RD.Meraki.ApiClient/RD.Meraki.ApiClient.cs $content
 $outDir = New-Item -ItemType Directory -Force $Destination
 
 try {

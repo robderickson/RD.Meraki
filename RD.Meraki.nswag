@@ -1,6 +1,6 @@
 {
   "runtime": "Default",
-  "defaultVariables": null,
+  "defaultVariables": "basePath=api/v1/",
   "documentGenerator": {
     "fromDocument": {
       "json": "",
@@ -49,12 +49,12 @@
       "operationGenerationMode": "SingleClientFromOperationId",
       "additionalNamespaceUsages": [],
       "additionalContractNamespaceUsages": [],
-      "generateOptionalParameters": false,
+      "generateOptionalParameters": true,
       "generateJsonMethods": false,
       "enforceFlagEnums": false,
       "parameterArrayType": "System.Collections.Generic.IEnumerable",
       "parameterDictionaryType": "System.Collections.Generic.IDictionary",
-      "responseArrayType": "System.Collections.Generic.ICollection",
+      "responseArrayType": "System.Collections.Generic.List",
       "responseDictionaryType": "System.Collections.Generic.IDictionary",
       "wrapResponses": false,
       "wrapResponseMethods": [],
@@ -68,7 +68,7 @@
       "dateTimeType": "System.DateTimeOffset",
       "timeType": "System.TimeSpan",
       "timeSpanType": "System.TimeSpan",
-      "arrayType": "System.Collections.Generic.ICollection",
+      "arrayType": "System.Collections.Generic.List",
       "arrayInstanceType": "System.Collections.ObjectModel.Collection",
       "dictionaryType": "System.Collections.Generic.IDictionary",
       "dictionaryInstanceType": "System.Collections.Generic.Dictionary",
